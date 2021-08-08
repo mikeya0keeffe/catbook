@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Grid, Row, Column } from 'carbon-components-react'
 
-import Card from '../components/card.component';
+import Card from '../components/card/card.component';
 import DATA from './data.json';
 
 const CardDisplay = ({ cards }) => {

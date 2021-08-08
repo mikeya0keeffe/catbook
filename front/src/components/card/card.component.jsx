@@ -5,7 +5,7 @@ import { Tile } from 'carbon-components-react';
 import './card.styles.scss';
 
 const Card = ({ card }) => {
-    const catGif = require('../assets/' + card.src).default;
+    const catGif = require('../../assets/' + card.src).default;
     return (
         <Tile className='cat-card'>
             <div>
