@@ -4,11 +4,11 @@ import '@testing-library/jest-dom/extend-expect';
 
 import CardDisplay from './card-display.page';
 
-describe('Testing the CArd Dipslay Component', () => {
+describe('Testing the Card Dipslay Component', () => {
     it('should render the components', () => {
         const { getByTestId } = render(<CardDisplay />);
 
         const cardDisplay = getByTestId('card-display');
         expect(cardDisplay).toBeInTheDocument();
-    })
+    });
 })

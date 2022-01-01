@@ -1,0 +1,13 @@
+.cat-card {
+    display: flex;
+    flex-direction: row;
+    min-height: 16rem;
+    min-width: 10rem;
+    background-color: #e0e0e0;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+img{
+    max-height: 10rem;
+}
